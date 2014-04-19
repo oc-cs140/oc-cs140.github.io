@@ -695,7 +695,7 @@ header p {
   position: fixed;
   top: 115px;
   background: url(../images/banner.png) #cccccc;
-  border: 1px solid #f0b500;
+  border: 1px solid #000000;
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -709,13 +709,13 @@ header p {
   padding-right: 10px;
 }
 #banner .button {
-  border: 1px solid #dba500;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffce38));
-  background: -webkit-linear-gradient(#ffe788, #ffce38);
-  background: -moz-linear-gradient(#ffe788, #ffce38);
-  background: -o-linear-gradient(#ffe788, #ffce38);
-  background: -ms-linear-gradient(#ffe788, #ffce38);
-  background: linear-gradient(#ffe788, #ffce38);
+  border: 1px solid #000000;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #cccccc));
+  background: -webkit-linear-gradient(#dddddd, #cccccc);
+  background: -moz-linear-gradient(#dddddd, #cccccc);
+  background: -o-linear-gradient(#dddddd, #cccccc);
+  background: -ms-linear-gradient(#dddddd, #cccccc);
+  background: linear-gradient(#dddddd, #cccccc);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -738,12 +738,12 @@ header p {
   text-align: center;
 }
 #banner .button:hover {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffe788));
-  background: -webkit-linear-gradient(#ffe788, #ffe788);
-  background: -moz-linear-gradient(#ffe788, #ffe788);
-  background: -o-linear-gradient(#ffe788, #ffe788);
-  background: -ms-linear-gradient(#ffe788, #ffe788);
-  background: linear-gradient(#ffe788, #ffe788);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #dddddd));
+  background: -webkit-linear-gradient(#dddddd, #dddddd);
+  background: -moz-linear-gradient(#dddddd, #dddddd);
+  background: -o-linear-gradient(#dddddd, #dddddd);
+  background: -ms-linear-gradient(#dddddd, #dddddd);
+  background: linear-gradient(#dddddd, #dddddd);
   background-color: #ffeca0;
 }
 #banner .fork {
